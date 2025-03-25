@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: Figtree-italic;
+      src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    }
+
+    @font-face {
+      font-family: Figtree;
+      src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      background-color: hsl(47, 88%, 63%);
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 372px;
+      height: 550px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      padding-top: 20px;
+      border: 1px solid hsl(0, 0%, 7%);
+      box-shadow: 10px 10px hsl(0, 0%, 7%);
+
+
+    }
+
+    .cardimg {
+      border-radius: 20px;
+
+
+    }
+
+    .cardimg img {
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      width: 100px;
+      height: 32px;
+      border-radius: 7px;
+      background-color: hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+    .text {
+      padding: 20px;
+    }
+
+    .btn {
+      font-family: Figtree, sans-serif;
+    }
+
+    .Published {
+      margin-top: 15px;
+      text-align: left;
+      font-family: Figtree, sans-serif;
+      font-weight: bold;
+    }
+
+    .html_css {
+      margin-top: 15px;
+      text-align: left;
+      font-size: 26px;
+      font-family: Figtree;
+      font-weight: bold;
+    }
+
+    .text2 {
+      margin-top: 20px;
+      font-size: 16px;
+      text-align: left;
+      font-family: Figtree;
+      color: hsl(0, 0%, 42%);
+    }
+
+    .author {
+      margin-top: 20px;
+      text-align: left;
+      display: flex;
+
+    }
+
+    .name {
+      margin-top: 22px;
+      padding-left: 10px;
+      font-family: Figtree, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="attribution">
+    <div class="card">
+      <div class="cardimg"><img src="assets/images/illustration-article.svg" alt="SVG Image">
+      </div>
+      <div class="text"><button class="btn"> Learning</button>
+        <div class="Published">Published 21 dec 2023 </div>
+        <div class="html_css">Html & Css foundations</div>
+        <div class="text2">These languages are the backbone of every website, defining structure ,content and
+          presentation </div>
+        <div class="author">
+          <div><img src="/assets/images/image-avatar.webp" alt=""></div>
+          <div class="name">Greg hopper</div>
+        </div>
+      </div>
+
+    </div>
+</body>
+
+</html>
